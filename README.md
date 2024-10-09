@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Overview
 This script, backup_archives.sh, automates the process of archiving heart rate log files and securely backing them up to a remote server via SSH. It organizes archived logs into a specified directory and transfers them to the remote server using scp.
 
@@ -25,3 +26,6 @@ The script uses scp to back up the directory archived_logs_group19 to the remote
 For questions or contributions, contact [Emmanuel/monica] at [chibuikeemmanuel879@gmail.com].
 
 
+=======
+this is a readme
+>>>>>>> added a new branch

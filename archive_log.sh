@@ -12,3 +12,7 @@ fi
 
 # Get current date and time in the desired format (Kigali, Rwanda time zone)
 TIMESTAMP=$(TZ='Africa/Kigali' date +"%Y%m%d_%H%M%S")
+
+# Create the new log file name with timestamp
+ARCHIVED_LOG_FILE="${LOG_FILE}_${TIMESTAMP}"
+

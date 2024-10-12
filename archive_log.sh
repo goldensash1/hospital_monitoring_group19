@@ -10,3 +10,5 @@ if [[ ! -f "$LOG_FILE" ]]; then
     exit 1
 fi
 
+# Get current date and time in the desired format (Kigali, Rwanda time zone)
+TIMESTAMP=$(TZ='Africa/Kigali' date +"%Y%m%d_%H%M%S")

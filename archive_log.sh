@@ -16,3 +16,5 @@ TIMESTAMP=$(TZ='Africa/Kigali' date +"%Y%m%d_%H%M%S")
 # Create the new log file name with timestamp
 ARCHIVED_LOG_FILE="${LOG_FILE}_${TIMESTAMP}"
 
+# Rename the original log file to the new archived log file name
+mv "$LOG_FILE" "$ARCHIVED_LOG_FILE"

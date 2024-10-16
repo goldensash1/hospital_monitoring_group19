@@ -3,7 +3,7 @@
 userinfo="2d294d8d9a24"
 hostinfo="2d294d8d9a24.601a9382.alu-cod.online"
 
-archDir="archived_logs_group19"
+myarchDir="archived_logs_group19"
 
 if [ ! -d "myarchDir" ]; then
         mkdir "$myarchDir"
@@ -19,7 +19,7 @@ for txtfile in heart_rate_log.txt_*; do
         fi
 done
 
-scp -r $myarchDir $userinfo@$host:/home/
+scp -r $myarchDir $userinfo@$hostinfo:/home/
 
 if [ $? -eq 0 ]; then
         echo "yoh Emma you did it"

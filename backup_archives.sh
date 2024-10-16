@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-userinfo="2d294d8d9a24"
-hostinfo="2d294d8d9a24.601a9382.alu-cod.online"
+userinfo="5fd809c6916d"
+hostinfo="5fd809c6916d.d4b45129.alu-cod.online"
 
 myarchDir="archived_logs_group19"
 

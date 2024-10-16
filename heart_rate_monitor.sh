@@ -2,8 +2,8 @@
 
 
 export TZ="Africa/Kigali"
-
-read -p "Enter the device name (e.g., Monitor_A, Monitor_B): " device_name
+echo "Enter the device name (e.g., Monitor_A, Monitor_B): "
+read device_name
 log_file="heart_rate_log.txt"
 
 if [ ! -f "$log_file" ]; then
@@ -15,7 +15,6 @@ echo "============================="
 echo " Heart Rate Monitoring Test "
 echo "============================="
 echo "Device: $device_name"
-echo "Press Ctrl+C to stop the monitoring at any time."
 
 generate_heart_rate() {
     echo $((RANDOM % 40 + 60))

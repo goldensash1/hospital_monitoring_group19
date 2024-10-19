@@ -5,7 +5,7 @@ hostinfo="5fd809c6916d.d4b45129.alu-cod.online"
 
 myarchDir="archived_logs_group19"
 
-if [ ! -d "myarchDir" ]; then
+if [ ! -d "$myarchDir" ]; then
         mkdir "$myarchDir"
 else
         echo "Emma the directory already exist!"
@@ -15,7 +15,7 @@ for txtfile in heart_rate_log.txt_*; do
         if [ ! -f "$txtfile" ]; then
                 echo "Emma you are awesome all is backed up!"
         else
-                mv "$txtfile" "myarchDir"
+                mv "$txtfile" "$myarchDir"
         fi
 done
 

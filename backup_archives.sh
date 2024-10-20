@@ -9,7 +9,7 @@ myarchDir="archived_logs_group19"
 if [ ! -d "$myarchDir" ]; then
         mkdir "$myarchDir"
 else
-        echo "Emma, the directory already exists!"
+        echo "Directory already exists!"
 fi
 
 # Check if any files matching the pattern exist
@@ -22,7 +22,7 @@ if ls heart_rate_log.txt_* 1> /dev/null 2>&1; then
     done
     echo "Files moved to $myarchDir."
 else
-    echo "Emma, you are awesome! All is already backed up!"
+    echo "All is already backed up!"
 fi
 
 # Secure copy to remote server
@@ -30,9 +30,9 @@ scp -r "$myarchDir" "$userinfo@$hostinfo:/home/"
 
 # Check if scp was successful
 if [ $? -eq 0 ]; then
-    echo "Yoh Emma, you did it!"
+    echo "Success!"
 else
-    echo "Sorry bro, go fix your script!"
+    echo "There was some errors!"
 fi
 
 

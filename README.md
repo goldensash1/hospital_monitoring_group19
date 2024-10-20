@@ -1,5 +1,5 @@
 # Heart Rate Monitoring System
-![monitor_heart_rate-4](https://github.com/user-attachments/assets/e00238e6-07d4-4fe1-b2d9-be0301855760)
+
 ## Project Overview
 
 »  **Heart Rate Monitoring Script**     `heart_rate_monitor.sh`  
@@ -37,10 +37,10 @@ We met several times for the development of this project. Below is a summary of 
 |------------------------------------------------|---------------|-----------------------------------------------------------|------------|
 | 1 ⮞ Task Overview                | 08-Oct    | Chibueze, Emmanuel, Shash, Delucie, Moses, Monica        | None       |
 | 2 ⮞ Task 1 Implementation              | 10-Oct    | Sash, Moses,        | None       |
-| 3 ⮞ Task 2 Implementation              | 13-Oct    |  Chibueze, Delucie,        | None       |
-| 4 ⮞ Task 3 Implementation              | 12-Oct    |  Emmanuel, Monica        | None       |
-| 4 ⮞ Project finalization                  | 12-Oct    |  Chibueze, Emmanuel, Shash, Delucie, Moses, Monica        | None       |
-| 5 ⮞ README Documentation                      | 17-Oct    |  Chibueze, Emmanuel, Shash, Delucie, Moses, Monica       | None       |
+| 3 ⮞ Task 2 Implementation              | 12-Oct    |  Chibueze, Delucie,        | None       |
+| 4 ⮞ Task 3 Implementation              | 14-Oct    |  Emmanuel, Monica        | None       |
+| 4 ⮞ Project finalization                  | 16-Oct    |  Chibueze, Emmanuel, Shash, Delucie, Moses, Monica        | None       |
+| 5 ⮞ README Documentation                      | 20-Oct    |  Chibueze, Emmanuel, Shash, Delucie, Moses, Monica       | None       |
 
 ## Contact Information
 For any questions or more clarity, please contact these awsome contributors ⤵️
